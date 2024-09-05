@@ -18,6 +18,7 @@ let password = "";
 let passLength = 10;
 let checkCount = 0;
 
+
 handleSlider();
 setIndictor("#ccc");
 
@@ -81,6 +82,7 @@ async function copyContent() {
   } catch (e) {
     copyMsg.innerText = "failed";
   }
+  
   //make copy span visible
   copyMsg.classList.add("active");
 
